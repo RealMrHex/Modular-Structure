@@ -1,0 +1,14 @@
+{
+    "id": "Crashlytic",
+    "title": "Crashlytic Module",
+    "version": 0.1,
+    "name": "Crashlytic",
+    "alias": "crashlytic",
+    "description": "Crashlytic module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 2,
+    "providers": [],
+    "files": [
+        "Helpers/V1/helpers.php"
+    ]
+}

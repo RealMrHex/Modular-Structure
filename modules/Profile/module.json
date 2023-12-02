@@ -1,0 +1,17 @@
+{
+    "id": "Profile",
+    "title": "Profile Module",
+    "version": 0.1,
+    "name": "Profile",
+    "alias": "profile",
+    "description": "Profile module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 6,
+    "providers": [
+        "Modules\\Profile\\Providers\\ProfileServiceProvider",
+        "Modules\\Profile\\Providers\\ProfileEventServiceProvider"
+    ],
+    "files": [
+        "Helpers/V1/helpers.php"
+    ]
+}

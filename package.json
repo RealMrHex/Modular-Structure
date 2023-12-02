@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev:venus": "cd themes/Venus/ && npm i && npm run dev",
+        "production": "cd themes/Venus/ && npm i && npm run build"
+    }
+}

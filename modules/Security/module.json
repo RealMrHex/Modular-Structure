@@ -1,0 +1,17 @@
+{
+    "id": "Security",
+    "title": "Security Module",
+    "version": 0.1,
+    "name": "Security",
+    "alias": "security",
+    "description": "Security module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 7,
+    "providers": [
+        "Modules\\Security\\Providers\\SecurityServiceProvider",
+        "Modules\\Security\\Providers\\SecurityAuthServiceProvider"
+    ],
+    "files": [
+        "Helpers/V1/helpers.php"
+    ]
+}

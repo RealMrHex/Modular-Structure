@@ -1,0 +1,23 @@
+{
+    "name": "realmrhex/profile-module",
+    "description": "Profile module by Armin Hooshmand",
+    "authors": [
+        {
+            "name": "Armin Hooshmand",
+            "email": "RealMrHex@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Profile\\": ""
+        }
+    }
+}

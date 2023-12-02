@@ -1,0 +1,21 @@
+{
+    "name": "realmrhex/core-module",
+    "description": "Core module by Armin Hooshmand",
+    "authors": [
+        {
+            "name": "Armin Hooshmand",
+            "email": "RealMrHex@gmail.com"
+        }
+    ],
+    "require": {
+        "morilog/jalali": "^v3.4",
+        "predis/predis": "^v2.2",
+        "prettus/l5-repository": "^2.9",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}

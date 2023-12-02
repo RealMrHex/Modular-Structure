@@ -1,0 +1,11 @@
+{
+    "Base": true,
+    "Core": true,
+    "Crashlytic": true,
+    "Panel": true,
+    "Profile": true,
+    "Security": true,
+    "Support": true,
+    "User": true,
+    "Theme": true
+}

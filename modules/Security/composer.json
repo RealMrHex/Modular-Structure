@@ -1,0 +1,27 @@
+{
+    "name": "realmrhex/security-module",
+    "description": "Security module by Armin Hooshmand",
+    "authors": [
+        {
+            "name": "Armin Hooshmand",
+            "email": "RealMrHex@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^6.1",
+        "bezhansalleh/filament-shield": "^3.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Security\\": ""
+        }
+    }
+}

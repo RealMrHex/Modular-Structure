@@ -1,0 +1,16 @@
+{
+    "id": "User",
+    "title": "User Module",
+    "version": 0.1,
+    "name": "User",
+    "alias": "user",
+    "description": "User module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 4,
+    "providers": [
+        "Modules\\User\\Providers\\UserServiceProvider"
+    ],
+    "files": [
+        "Helpers/V1/helpers.php"
+    ]
+}

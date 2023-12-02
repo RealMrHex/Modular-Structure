@@ -1,0 +1,18 @@
+{
+    "name": "realmrhex/crashlytic-module",
+    "description": "Crashlytic module by Armin Hooshmand",
+    "authors": [
+        {
+            "name": "Armin Hooshmand",
+            "email": "RealMrHex@gmail.com"
+        }
+    ],
+    "require": {
+        "sentry/sentry-laravel": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crashlytic\\": ""
+        }
+    }
+}

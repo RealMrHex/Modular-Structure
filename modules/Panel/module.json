@@ -1,0 +1,16 @@
+{
+    "id": "Panel",
+    "title": "Panel Module",
+    "version": 0.1,
+    "name": "Panel",
+    "alias": "panel",
+    "description": "Panel module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Panel\\Providers\\PanelServiceProvider"
+    ],
+    "files": [
+        "Helpers/helpers.php"
+    ]
+}

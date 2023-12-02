@@ -1,0 +1,24 @@
+{
+    "name": "realmrhex/theme-module",
+    "description": "Theme module by Armin Hooshmand.",
+    "authors": [
+        {
+            "name": "Armin Hooshmand",
+            "email": "RealMrHex@gmail.com"
+        }
+    ],
+    "require": {
+        "qirolab/laravel-themer": "^2.0.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Theme\\": ""
+        }
+    }
+}

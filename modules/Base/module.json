@@ -1,0 +1,11 @@
+{
+    "id": "Base",
+    "title": "Base Module",
+    "version": 0.1,
+    "name": "Base",
+    "alias": "base",
+    "description": "Base module by Armin Hooshmand",
+    "keywords": [],
+    "priority": 1,
+    "providers": []
+}
