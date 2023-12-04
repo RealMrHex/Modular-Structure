@@ -11,7 +11,6 @@ use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Hash;
-use Modules\Project\Entities\V1\Project\ProjectFields;
 use Modules\Security\Entities\V1\Permission\RoleFields;
 use Modules\Support\Contracts\V1\Schema\Schema;
 use Modules\Support\Enums\V1\Entities\Entities;
@@ -98,15 +97,6 @@ class UserSchema extends Schema
                   ->searchable()
                   ->multiple()
                   ->minItems(1)
-                  ->required()
-                  ->native(false),
-
-            Select::make(UserFields::PROJECTS)
-                  ->translateLabel()
-                  ->relationship(Entities::Project->table(), ProjectFields::TITLE)
-                  ->options(v1_project()->all()->pluck(ProjectFields::TITLE, ProjectFields::ID))
-                  ->searchable()
-                  ->multiple()
                   ->required()
                   ->native(false),
         ];

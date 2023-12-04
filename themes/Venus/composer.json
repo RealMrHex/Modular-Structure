@@ -1,6 +1,6 @@
 {
-    "name": "realmrhex/starify-venus-theme",
-    "description": "Starify Venus theme by Armin Hooshmand",
+    "name": "realmrhex/venus-theme",
+    "description": "Venus theme by Armin Hooshmand",
     "authors": [
         {
             "name": "Armin Hooshmand",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Themes\\Starify\\": ""
+            "Themes\\Venus\\": ""
         }
     }
 }
